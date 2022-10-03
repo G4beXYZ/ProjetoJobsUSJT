@@ -1,0 +1,50 @@
+.container{
+    width: 100%;
+    height: 36em;
+    min-height: 100%;
+}
+
+.pos_btn{
+    width: 20%;
+    margin: auto;
+}
+.btn {
+    background-color: #6756c5; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #eff5f4;
+    color: aliceblue;
+    border-color: white;
+    border-radius: 15px;
+    border-style: groove;
+    font-size: 22px;    
+}
+
+.title {
+    height: 40%;
+    text-align: center;
+    font-size: 50pt;
+    font-family: cursive;
+    margin-top: 5%;
+}
+
+.part_b{
+    width: 100%;
+    height: 50%;
+}
+
+.part_a{
+    margin: 0 auto;
+    width: 50%;
+}

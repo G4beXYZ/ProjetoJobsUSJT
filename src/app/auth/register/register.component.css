@@ -1,0 +1,64 @@
+body {
+    background-color: #e3e7e8;
+    background-image: url(../../../assets/crumpled-paper-background.jpg);
+}
+
+.container {
+    height: 36em;
+}
+
+.all {
+    height: 100%;
+    width: 100%;
+}
+
+.creator {
+    /*border: 15px solid #189e80;*/
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    margin-top: 2%;
+    height: 90%;
+    box-shadow: 0.1px 0.1px black;
+}
+
+.row {
+    height: 100%;
+}
+
+a {
+    color: #189e80;
+}
+
+#titulo {
+    color: #189e80;
+    font-size: 25pt;
+    text-align: center;
+}
+
+hr {
+    margin: 5% auto;
+}
+
+.btn01 {
+    color: white;
+    background-color: #189e80;
+    border-color: white;
+    border-radius: 45px;
+    border-style: solid;
+    font-size: 20px;
+    width: 40%;
+    height: 45px;
+    margin-top: 1em;
+}
+
+.alert_custom {
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 100%;
+}
+
+form {
+    width: 85%;
+    margin: auto;
+}

@@ -1,0 +1,52 @@
+<body>
+    <!--<div *ngIf="user" class="d-flex justify-content-center">
+        <h5 *ngIf="user" style="display:inline-block; margin-top: 10px; margin-left: 150px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style: italic; color:rgb(92, 107, 106)">Logado como: {{ user?.displayName }} - {{ user?.email }}</h5>
+    </div>-->
+    <div class="container" *ngIf="!user">
+        
+            <div class="title">
+                <div class="part_a">
+                <h1>PROJETO SITE EMPREGOS INCRIVEIS</h1>
+            </div>
+            </div>
+        
+        <div class="part_b">
+            <div class="pos_btn">
+            <button class="btn btn-primary btn-lg" *ngIf="!user" (click)="login()">Vamos lá</button>
+        </div>
+        </div>
+    </div>
+    <div *ngIf="user">
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+              <a class="navbar-brand" href="#">Nome Site Incrivel</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Qualifique-se para o mercado</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Currículos e Entrevistas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Trabalhando</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Variedades</a>
+                  </li>
+                 
+                </ul>
+              </div>
+              <form class="form-inline mt-2 mt-md-0">
+                <button class="btn btn-outline-success my-2 my-sm-0" style=" background-color: #e72626;" type="submit" (click)="logout()">Sair</button>
+              </form>
+            </nav>
+          </header>
+    </div>
+</body>
