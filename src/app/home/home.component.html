@@ -17,36 +17,44 @@
         </div>
     </div>
     <div *ngIf="user">
-        <header>
-            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-              <a class="navbar-brand" href="#">Nome Site Incrivel</a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav mr-auto">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Qualifique-se para o mercado</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Currículos e Entrevistas</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Trabalhando</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Variedades</a>
-                  </li>
-                 
-                </ul>
-              </div>
-              <form class="form-inline mt-2 mt-md-0">
-                <button class="btn btn-outline-success my-2 my-sm-0" style=" background-color: #e72626;" type="submit" (click)="logout()">Sair</button>
-              </form>
-            </nav>
-          </header>
+          <main role="main" class="container">
+            <header>
+              <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                <a class="navbar-brand" href="#">Nome Site Incrivel</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Qualifique-se para o mercado</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Currículos e Entrevistas</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Trabalhando</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Variedades</a>
+                    </li>
+                   
+                  </ul>
+                </div>
+                <form class="form-inline mt-2 mt-md-0">
+                  <button class="btn btn-outline-success my-2 my-sm-0" style=" background-color: #e72626;" type="submit" (click)="logout()">Sair</button>
+                </form>
+              </nav>
+            </header>
+            <div class="jumbotron">
+              <h1>Quem somos?</h1>
+              <h3>Aqui vai o texto de descrição de quem somos e para preencher o div vamos coloar um Lorem Ipsum por enquanto:</h3>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non sem suscipit, elementum est sed, elementum justo. Curabitur enim est, bibendum non porta quis, varius in lectus. Nunc in felis porta, tristique lectus sit amet, pellentesque libero. Aenean sed ultrices lectus. Donec tincidunt massa vel eros eleifend, ac vestibulum lectus sagittis. Ut et sapien eros. Morbi eget interdum ante, at vulputate tortor. Mauris interdum ipsum lacinia elit vestibulum laoreet. Donec sagittis laoreet nibh, ac hendrerit risus sagittis eget. </p>
+              <a class="btn btn-lg btn-primary" href="/docs/4.4/components/navbar/" role="button">Leia sobre »</a>
+            </div>
+          </main>
     </div>
 </body>
