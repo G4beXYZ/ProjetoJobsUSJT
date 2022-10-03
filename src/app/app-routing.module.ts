@@ -11,37 +11,16 @@ import { VariedadesComponent } from './variedades/variedades.component';
 
 const routes: Routes =
 [
+  {path:'login',component: LoginComponent},
+  {path:'register',component: RegisterComponent},
+  {path:'home',component:HomeComponent},
+  {path:'qualifiquese',component:QualiMercadoComponent},
+  {path:'curriculosEntrevista',component:CurriculoEntrevistaComponent},
+  {path:'trabalhando',component:TrabalhandoComponent},
+  {path:'variedades',component:VariedadesComponent},
+  
   {
-    path:'login',
-    component: LoginComponent
-
-  },
-  {
-    path:'register',
-    component: RegisterComponent
-  },
-  {
-    path:'home',
-    component:HomeComponent
-  },
-  {
-    path:'qualifiquese',
-    component:HomeComponent
-  },
-  {
-    path:'curriculosEntrevista',
-    component:HomeComponent
-  },
-  {
-    path:'trabalhando',
-    component:HomeComponent
-  },
-  {
-    path:'variedades',
-    component:HomeComponent
-  },
-  {
-    path:'',
+    path:'**',
     redirectTo:'/home',
     pathMatch:'full'
   }
