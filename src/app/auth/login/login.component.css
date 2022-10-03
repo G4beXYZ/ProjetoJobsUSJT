@@ -17,10 +17,8 @@ body{
     width: 79em;
   }
   .presentation {
-    background-color: #189e80;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
+    background-color: #3f3d3d;
+    height: 151%;
   }
   
   .conteudo1 {
@@ -42,53 +40,52 @@ body{
   }
   
   #titulo2 {
-    color: #189e80;
+    color: #ffffff;
     font-size: 30pt;
     margin: 10% auto;
   }
-  h3 {
-    text-align: center;
-    color: white;
-  }
+
   
   .btn01 {
     color: white;
-    background-color: #189e80;
+    background-color: #4f5251;
     border-color: white;
     border-style: solid;
-    border-radius: 45px;
+    border-radius: 15px;
     font-size: 20px;
     width: 30%;
     height: 45px;
+    transition: all 0.5s;
   }
   
   .btn01:hover {
     color: white;
-    background-color: #168069;
+    background-color: #898b8b;
     border-color: white;
     border-style: solid;
-    border-radius: 45px;
-    font-size: 20px;
+    border-radius: 15px;
+    font-size: 22px;
     width: 30%;
     height: 45px;
   }
   
   .btn02 {
-    background-color: #189e80;
+    background-color: #b5b8b7;
     border-color: white;
-    border-radius: 45px;
+    border-radius: 15px;
     border-style: solid;
     font-size: 20px;
     width: 50%;
     height: 45px;
     margin-top: 5px;
+    transition: all 0.5s;
   }
   
   .btn02:hover {
     background-color: #189e80;
     border-color: white;
     border-radius: 45px;
-    border-style: dashed;
+    border-style: groove;
     font-size: 20px;
     width: 50%;
     height: 45px;
@@ -100,12 +97,7 @@ body{
     font-weight: 650;
     text-decoration: none;
   }
-  p{
-    margin-top: 1em;
-    color: white;
-    height: 05em;
-    width:10% auto;
-  }
+
   a{
     color: white;;
   }

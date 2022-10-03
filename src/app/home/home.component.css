@@ -11,7 +11,7 @@
     margin: auto;
 }
 .btn {
-    background-color: #6756c5; 
+    background-color: #534f66; 
     border: none;
     color: white;
     padding: 15px 32px;
@@ -36,8 +36,8 @@
 .title {
     height: 40%;
     text-align: center;
-    font-size: 50pt;
-    font-family: cursive;
+    font-size: 70pt;
+    font-family: fantasy;
     margin-top: 5%;
 }
 
