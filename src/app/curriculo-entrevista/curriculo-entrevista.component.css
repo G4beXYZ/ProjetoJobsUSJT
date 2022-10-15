@@ -18,16 +18,17 @@ table, tr, td {
     border: none;
     font-size: 16px;
 }
-    img {
+img {
     width: 208px;
     height: 260px;
 }
-    td {
+td {
     text-align: justify;
     text-justify: inter-word;
 }
-    body {
+body {
     font-family: sans-serif;
+    line-height: 150%;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-right: 350px;
