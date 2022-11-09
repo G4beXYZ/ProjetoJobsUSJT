@@ -14,18 +14,20 @@
 
             </div>
         </div>
-        <div class="col-7 login">
-            <div class="conteudo2">
+        <div class="login">
+            <div class="login__container">
                 <h2 id="titulo2">Login</h2>
                 <hr>
-                <form #loginForm="ngForm" (ngSubmit)="login(loginForm)">
+                <form #loginForm="ngForm" (ngSubmit)="login(loginForm)" class="login__form">
 
                     <div class="form-group">
-                        <input ngModel #email="ngModel" name="email" type="email" class="form-control" placeholder="E-mail">
+                        <input ngModel #email="ngModel" name="email" type="email" class="login__input" placeholder="E-mail">
+                        <span class="login__input-border"></span>
                     </div>
                     <br>
                     <div class="form-group">
-                        <input ngModel #password="ngModel" name="password" type="password" class="form-control" placeholder="Senha">
+                        <input ngModel #password="ngModel" name="password" type="password" class="login__input" placeholder="Senha">
+                        <span class="login__input-border"></span>
                     </div>
                     <div class="row" *ngIf="authError">
                         <div class="alert alert-warning alert_custom alert-dismissible fade show" role="alert">{{authError?.message}}
@@ -35,7 +37,7 @@
                         </div>
                     </div>
                     <br>
-                    <button class="btn01" type="submit">Login</button>
+                    <button class="login__submit" type="submit">Login</button>
                 </form>
             </div>
         </div>
