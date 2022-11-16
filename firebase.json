@@ -1,11 +1,16 @@
 {
   "hosting": {
-    "site": "boomjobs",
-    "public": "public",
+    "public": "dist/Projeto1",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
     ]
   }
 }
